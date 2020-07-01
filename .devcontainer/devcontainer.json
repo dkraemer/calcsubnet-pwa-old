@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
   "image": "dkraemer/dev-node:latest",
-  //"name": "",
+  "name": "CalcSub.net",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -9,8 +9,13 @@
     "EditorConfig.EditorConfig",
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
-    "visualstudioexptteam.vscodeintellicode"
+    "visualstudioexptteam.vscodeintellicode",
+    "angular.ng-template"
   ],
-  //"forwardPorts": [],
+  "forwardPorts": [
+    4200,
+    8080,
+    9005
+  ],
   "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/postCreate.sh"
 }
