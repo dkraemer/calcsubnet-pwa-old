@@ -1,4 +1,4 @@
-# calcsub.net - An IP Subnet Calculator as Progressive Web App
+# calcsub.net - An IP Subnet Calculator as a PWA
 
 ## Development
 ### Requirements
