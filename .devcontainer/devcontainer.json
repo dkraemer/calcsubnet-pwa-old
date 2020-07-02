@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json
 {
   "image": "dkraemer/dev-node:latest",
-  "name": "CalcSub.net",
+  "name": "calsubnet-pwa",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
@@ -10,7 +10,8 @@
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
     "visualstudioexptteam.vscodeintellicode",
-    "angular.ng-template"
+    "angular.ng-template",
+    "adammaras.overtype"
   ],
   "forwardPorts": [
     4200,
