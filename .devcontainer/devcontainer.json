@@ -10,7 +10,8 @@
     "yzhang.markdown-all-in-one",
     "shd101wyy.markdown-preview-enhanced",
     "visualstudioexptteam.vscodeintellicode",
-    "angular.ng-template"
+    "angular.ng-template",
+    "adammaras.overtype"
   ],
   "forwardPorts": [
     4200,
