@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SubnetMask } from "./subnet-mask";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'calcsubnet-pwa';
+
+  subnetMasks: SubnetMask[];
+
+  constructor() {}
+
+  ngOnInit() {
+    this.subnetMasks = SubnetMask.getAll();
+  }
 }
