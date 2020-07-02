@@ -9,10 +9,12 @@ import { SubnetMask } from "./subnet-mask";
 export class AppComponent {
 
   subnetMasks: SubnetMask[];
+  selectedSubnetMask: SubnetMask;
 
   constructor() {}
 
   ngOnInit() {
     this.subnetMasks = SubnetMask.getAll();
+    this.selectedSubnetMask = this.subnetMasks[0];
   }
 }
