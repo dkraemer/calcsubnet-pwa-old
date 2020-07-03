@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SubnetMask } from "./subnet-mask";
+import { SubnetMask } from 'calcsubnet';
 
 @Component({
   selector: 'app-root',

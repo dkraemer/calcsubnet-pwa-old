@@ -1,5 +1,4 @@
 <select type="number" [(ngModel)]="selectedSubnetMask">
   <option *ngFor="let subnetMask of subnetMasks" [ngValue]="subnetMask">{{subnetMask}}</option>
 </select>
-{{selectedSubnetMask}}
-
+<p *ngFor="let line of selectedSubnetMask.dump()">{{line}}</p>
